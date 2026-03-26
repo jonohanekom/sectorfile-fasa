@@ -3,7 +3,7 @@
 // ##################################################################
 
 // Version v0.6
-// Update Date 11/10.2024
+// Update Date 22/03/2026
 
 
 // ##################################################################
@@ -108,6 +108,20 @@ LEVELS:FAPP:57,60,72,80,89,90
 // FAWB | WONDERBOOM
 LEVELS:FAWB:60,61,65,72,80,85,95
 
+// ##################################################################
+//                 APPROACH CLEARANCE TYPE v0.1
+// ##################################################################
+
+// FAOR | OR TAMBO INTL
+APPCLR:FAOR:03L:ILS,CAT2
+APPCLR:FAOR:03R:ILS,CAT2,RNAV
+APPCLR:FAOR:21L:ILS,CAT2,RNAV
+APPCLR:FAOR:21R:ILS,CAT2,VO-Y,VO-Z
+
+// FACT | CAPE TOWN INTL
+APPCLR:FACT:01:ILS,CAT2,CAT3,RNAV,RN-Y,RN-Z,VO-Z
+APPCLR:FACT:19:ILS,CAT2,RNAV,RN-Z
+APPCLR:FACT:34:RN-Z
 
 // ##################################################################
 //                 INITIAL CLIMB ALTITUDES v0.2
